@@ -44,7 +44,7 @@ Add the service provider to `config/app.php`:
 Log in to your [Mobizon](https://mobizon.kz/help/api-docs/sms-api) and grab your Api, Api Secret Key. Add them to `config/services.php`.  
 
 ```php
-// config/services.php
+// config/mobizon.php
 ...
 'mobizon' => [
     'server' => env('MOBIZON_SERVER'),
