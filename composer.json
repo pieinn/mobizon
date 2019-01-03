@@ -25,7 +25,7 @@
         "illuminate/queue": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
         "illuminate/notifications": "5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
         "illuminate/support": "5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
-        "mobizon/mobizon-php": "1.0.*"
+        "mobizon/mobizon-php": "2.0.*"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.5",
