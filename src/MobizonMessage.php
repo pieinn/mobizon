@@ -4,7 +4,7 @@ namespace Laraketai\Mobizon;
 
 use Illuminate\Support\Arr;
 
-class Mobizon
+class MobizonMessage
 {
     /**
      * The phone number the message should be sent from.
