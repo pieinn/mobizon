@@ -74,8 +74,7 @@ public function via($notifiable)
 
 public function toMobizon($notifiable)
 {
-    return (new MobizonMessage)
-                    ->content('This is a test SMS via Mobizon using Laravel Notifications!');
+    return MobizonMessage::create("Task #{$notifiable->id} is complete!");
 }
 ```  
 
@@ -92,7 +91,6 @@ public function routeNotificationForMobizon()
 ### Available methods
 
 * `content()` - (string), SMS notification body
-* `from()` - (integer) Override default from number
 
 ## Changelog
 
