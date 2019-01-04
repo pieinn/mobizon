@@ -2,7 +2,6 @@
 
 namespace Laraketai\Mobizon;
 
-use Mobizon\MobizonApi;
 use Illuminate\Support\ServiceProvider;
 
 class MobizonServiceProvider extends ServiceProvider
