@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraketai;
+namespace Laraketai\Mobizon;
 
 /**
  * Class MobizonApi
