@@ -3,7 +3,6 @@
 namespace Laraketai\Mobizon\Exceptions;
 
 use Exception;
-use DomainException;
 
 class CouldNotSendNotification extends Exception
 {
