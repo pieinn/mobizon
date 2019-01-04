@@ -33,7 +33,7 @@ class Mobizon
      */
     public function sendSmsTo($recipient, $text, $alphaname)
     {
-        if (empty($to)) {
+        if (empty($recipient)) {
             throw CouldNotSendNotification::missingRecipient();
         }
         if (mb_strlen($text) > 800) {
