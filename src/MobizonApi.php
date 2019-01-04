@@ -2,10 +2,7 @@
 
 namespace Laraketai\Mobizon;
 
-/**
- * Class MobizonApi
- * @package Mobizon
- */
+
 class MobizonApi
 {
     /**
