@@ -40,7 +40,7 @@ Laravel 5.5 < Add the service provider to  `config/app.php`:
 ],
 ```
 
-Publish Config File to `config/mobizon.php`:
+Publish Config File `config/mobizon.php`:
 ```
 php artisan vendor:publish --provider="Laraketai\Mobizon\MobizonServiceProvider"
 ```
