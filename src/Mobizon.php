@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraketai;
+namespace Laraketai\Mobizon;
 
 use Laraketai\MobizonApi as SmsApi;
 use Laraketai\Mobizon\Exceptions\CouldNotSendNotification;
