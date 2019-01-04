@@ -30,7 +30,7 @@ You can install this package via composer:
 composer require laraketai/mobizon
 ```
 
-Add the service provider to `config/app.php`:
+Laravel 5.5 < Add the service provider to  `config/app.php`:
 
 ```php
 // config/app.php
@@ -39,6 +39,12 @@ Add the service provider to `config/app.php`:
     Laraketai\Mobizon\MobizonServiceProvider::class,
 ],
 ```
+
+Publish Config File to `config/mobizon.php`:
+```
+php artisan vendor:publish --provider="Laraketai\Mobizon\MobizonServiceProvider"
+```
+
 
 ### Setting up your Mobizon service
 Log in to your [Mobizon](https://mobizon.kz/help/api-docs/sms-api) and grab your Api, Api Secret Key. Add them to `config/services.php`.  
