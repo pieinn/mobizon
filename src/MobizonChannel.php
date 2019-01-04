@@ -2,7 +2,6 @@
 
 namespace Laraketai\Mobizon;
 
-use Mobizon\MobizonApi;
 use Illuminate\Notifications\Notification;
 use Laraketai\Mobizon\Exceptions\CouldNotSendNotification;
 
@@ -29,8 +28,8 @@ class MobizonChannel
      * @param $notifiable
      * @param Notification $notification
      * @throws CouldNotSendNotification
-     * @throws \Mobizon\Mobizon_Http_Error
-     * @throws \Mobizon\Mobizon_Param_Required
+     * @throws \Laraketai\Mobizon\Mobizon_Http_Error
+     * @throws \Laraketai\Mobizon\Mobizon_Param_Required
      */
     public function send($notifiable, Notification $notification)
     {
@@ -49,8 +48,8 @@ class MobizonChannel
      * @param $recipient
      * @param MobizonMessage $message
      * @throws CouldNotSendNotification
-     * @throws \Mobizon\Mobizon_Http_Error
-     * @throws \Mobizon\Mobizon_Param_Required
+     * @throws \Laraketai\Mobizon\Mobizon_Http_Error
+     * @throws \Laraketai\Mobizon\Mobizon_Param_Required
      */
     protected function sendMessage($recipient, MobizonMessage $message)
     {
