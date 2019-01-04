@@ -2,8 +2,6 @@
 
 namespace Laraketai\Mobizon;
 
-use Illuminate\Support\Arr;
-
 class MobizonMessage
 {
     /**
