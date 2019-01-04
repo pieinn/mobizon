@@ -2,7 +2,7 @@
 
 namespace Laraketai\Mobizon;
 
-use Laraketai\MobizonApi as SmsApi;
+use Laraketai\Mobizon\MobizonApi as SmsApi;
 use Laraketai\Mobizon\Exceptions\CouldNotSendNotification;
 
 class Mobizon
@@ -28,8 +28,8 @@ class Mobizon
      * @param $alphaname
      * @return bool
      * @throws CouldNotSendNotification
-     * @throws \Mobizon\Mobizon_Http_Error
-     * @throws \Mobizon\Mobizon_Param_Required
+     * @throws \Laraketai\Mobizon\Mobizon_Http_Error
+     * @throws \Laraketai\Mobizon\Mobizon_Param_Required
      */
     public function sendSmsTo($recipient, $text, $alphaname)
     {
@@ -54,8 +54,8 @@ class Mobizon
      *
      * @return string
      * @throws CouldNotSendNotification
-     * @throws \Mobizon\Mobizon_Http_Error
-     * @throws \Mobizon\Mobizon_Param_Required
+     * @throws \Laraketai\Mobizon\Mobizon_Http_Error
+     * @throws \Laraketai\Mobizon\Mobizon_Param_Required
      */
     public function getBalance()
     {
