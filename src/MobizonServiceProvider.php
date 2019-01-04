@@ -13,7 +13,7 @@ class MobizonServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/config/mobizon.php' => config_path('mobizon.php') . "/"
+            __DIR__ . '/config/mobizon.php' => config_path('mobizon.php')
         ], 'config');
     }
 
