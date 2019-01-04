@@ -53,8 +53,8 @@ Log in to your [Mobizon](https://mobizon.kz/help/api-docs/sms-api) and grab your
 // config/mobizon.php
 ...
 'mobizon' => [
-    'server' => env('MOBIZON_SERVER'),
-    'secret' => env('MOBIZON_SECRET'),
+    'alphaname' => null, //Optional, if you don't have registered alphaname, just skip this param and your message will be sent with our free common alphaname.
+    'secret' => env('MOBIZON_APP_KEY'), // Your secret API key
 ],
 ```
 
