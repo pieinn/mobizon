@@ -12,39 +12,19 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Aketai",
-            "email": "sanzhar@aketai.com",
+            "name": "Laraketai",
+            "email": "g.astakhoff@gmail.com",
             "homepage": "https://github.com/laraketai",
             "role": "Developer"
         }
     ],
     "require": {
-        "lib-curl": "*",
-        "php": "^7.2.5",
-        "ext-json": "*",
-        "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^7.0.1",
-        "illuminate/queue": "5.1 - 5.8|^6.0|^7.0|^8.0",
-        "illuminate/notifications": "5.1 - 5.8|^6.0|^7.0|^8.0",
-        "illuminate/support": "5.1 - 5.8|^6.0|^7.0|^8.0"
-        
-    },
-    "require-dev": {
-        "mockery/mockery": "^0.9.5",
-        "phpunit/phpunit": "4.*"
+        "php": "^7.3"
     },
     "autoload": {
         "psr-4": {
             "Laraketai\\Mobizon\\": "src"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Laraketai\\Mobizon\\Test\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
     },
     "config": {
         "sort-packages": true
